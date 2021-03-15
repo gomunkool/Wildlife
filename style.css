@@ -1,0 +1,335 @@
+body {
+  padding: 0;
+  margin: 0;
+
+  color: 000;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  display: block;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 780px;
+  background: url("assets/fox.jpg") no-repeat center top / cover;
+}
+
+.header__logo {
+  padding: 20px 0 0 0;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin: 0 16px 0 0;
+}
+.name {
+  font-family: roboto;
+  font-size: 32px;
+}
+.header__logo {
+  color: #f7f7f7;
+}
+.nav {
+  margin-left: auto;
+}
+.nav__ul {
+  display: inline-flex;
+  justify-content: space-between;
+}
+.nav li a {
+  margin-left: 65px;
+  color: #f7f7f7;
+  text-decoration: none;
+  font-size: 23px;
+}
+.nav__info {
+  font-family: Open Sans;
+  transition: color 0.1s linear;
+}
+
+.nav__info:hover {
+  color: #e39128;
+}
+.nav__lupa {
+  padding-top: 3px;
+}
+.nav__lupa:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.nav__sing {
+  font-family: roboto;
+  font-size: 23px;
+  border: 2px solid #cd6326;
+  border-radius: 5px;
+  padding: 7.5px 21px;
+  transition: background-color 0.1s linear;
+}
+.nav__sing:hover {
+  background-color: #cd6326;
+}
+
+.survival {
+  margin-top: 120px;
+  font-family: Open Sans;
+}
+
+.title {
+  font-style: normal;
+  letter-spacing: 2px;
+  color: #cd6326;
+  font-size: 48px;
+  margin-bottom: 51px;
+}
+.text {
+  color: #f7f7f7;
+  font-size: 18px;
+  width: 274px;
+  line-height: 27px;
+}
+.baton__donate {
+  border: solid #cd6326;
+  display: block;
+  padding: 16px 0 16px 0;
+  width: 160px;
+  margin-top: 49px;
+  background: #cd6326;
+
+  border-radius: 5px;
+  color: #f7f7f7;
+  text-align: center;
+  align-items: center;
+  font-size: 23px;
+  transition: background-color 0.1s linear, color 0.1s linear;
+}
+
+.baton__donate:hover {
+  background: none;
+
+  color: #333;
+}
+
+.interactiv {
+  background-color: #ccc;
+}
+
+section h3 {
+  padding-top: 120px;
+  font-family: Open Sans;
+  font-size: 48px;
+  color: #333;
+  text-align: center;
+}
+section p {
+  font-family: Open Sans;
+  font-size: 24px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 122px;
+}
+section a p {
+  color: #f7f7f7;
+  font-family: Open Sans;
+  font-size: 17px;
+  text-align: center;
+}
+.scrol {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.foto {
+  color: #f7f7f7;
+  font-family: Open Sans;
+  font-size: 22px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.foto__deer {
+  padding-top: 247px;
+  width: 300px;
+  height: 360px;
+  background: url(assets/deer.jpg) no-repeat center top;
+  margin: 0 30px;
+  transition: opacity 0.1s linear;
+}
+
+.foto__deer:hover {
+  opacity: 0.6;
+}
+.foto__squirrel {
+  padding-top: 247px;
+  width: 300px;
+  height: 360px;
+  background: url(assets/squirrel.jpg) no-repeat center top;
+  margin: 0 30px;
+  transition: opacity 0.1s linear;
+}
+.foto__squirrel:hover {
+  opacity: 0.6;
+}
+.foto__falcon {
+  padding-top: 247px;
+  width: 300px;
+  height: 360px;
+  background: url(assets/falcon.jpg) no-repeat center top;
+  margin: 0 30px;
+  transition: opacity 0.1s linear;
+}
+.foto__falcon:hover {
+  opacity: 0.6;
+}
+.arrow {
+  padding-bottom: 242px;
+}
+.arrow:hover {
+  opacity: 0.5;
+}
+
+.block {
+  background-color: #ccc;
+}
+aside h3 {
+  font-family: Open Sans;
+  color: #333;
+  font-size: 27px;
+  text-align: center;
+}
+
+.send {
+  display: flex;
+  padding: 60px 0 240px 0;
+  justify-content: center;
+}
+
+input {
+  width: 540px;
+  height: 60px;
+  border: solid #333 1px;
+  background-color: #ccc;
+  font-family: roboto;
+  font-size: 23px;
+  padding-left: 15px;
+}
+.email__bat {
+  background-color: #cd6326;
+  font-family: Roboto;
+  color: #f7f7f7;
+  font-size: 23px;
+  align-items: center;
+  text-align: center;
+  width: 120px;
+  height: 64px;
+  border: solid 1px #cd6326;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: background 0.1s linear, color 0.1s linear;
+}
+.email__bat:hover {
+  background: none;
+  color: #333;
+}
+
+.footer {
+  background: url("assets/Rectangle.jpg") no-repeat center top / cover;
+}
+.footer__cont {
+  padding: 140px 0;
+  display: flex;
+  align-items: center;
+}
+
+.name__footer {
+  margin-right: 115px;
+  padding-left: 15px;
+  font-family: Roboto;
+  color: #f7f7f7;
+  font-size: 32px;
+}
+.nav__footer {
+  width: 490px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.nav__items {
+  margin: 0;
+  color: #f7f7f7;
+  font-family: Open Sans;
+  font-size: 23px;
+  transition: color 0.1s linear;
+}
+.nav__items:hover {
+  color: #e39128;
+  cursor: pointer;
+}
+
+.footer__cont {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  margin-left: 90px;
+  width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fais {
+  width: 40px;
+  height: 40px;
+  background-image: url(assets/fais.svg);
+}
+.fais:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.inst {
+  width: 40px;
+  height: 40px;
+  background-image: url(assets/inst.svg);
+}
+.inst:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.pint {
+  width: 40px;
+  height: 40px;
+  background-image: url(assets/pint.svg);
+}
+.pint:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.teleg {
+  width: 40px;
+  height: 40px;
+  background-image: url(assets/telegram.svg);
+}
+.teleg:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
